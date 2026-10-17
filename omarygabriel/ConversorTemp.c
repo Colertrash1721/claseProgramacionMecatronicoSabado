@@ -33,7 +33,7 @@ int main() {
                    temperatura, resultado);
             break;
 
-        case 3:
+        case 3: 
             printf("Gracias por utilizar el programa.\n");
             return 0;
 
