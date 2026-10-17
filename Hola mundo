@@ -5,3 +5,17 @@ int main () {
    return O;
 }
 
+int main(void) {
+   // 1. Mostrar encabezado decorativo imprimirEncabezado();
+
+  // 2. Ejecutar el mensaje principal ¨Hola mundo¨ imprimirmensajeprincipal();
+
+  // 3. Mostrar despedida de confirmacion imprimirpiedepagina();
+
+  // Finalizar la ejecucion del programa return EXIT_SUCCESS;
+}
+
+//---implementacion de funciones---
+
+void imprimirEncabezado(void) {
+
