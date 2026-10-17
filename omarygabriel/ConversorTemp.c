@@ -12,6 +12,7 @@ int main() {
     printf("Seleccione una opcion: ");
     scanf("%d", &opcion);
 
+    switch (opcion) {
      caso 1:
             printf("Ingrese la temperatura en Fahrenheit: ");
             scanf("%f", &temperatura);
@@ -22,5 +23,14 @@ int main() {
                    temperatura, resultado);
             break;
 
+     case 2:
+            printf("Ingrese la temperatura en Celsius: ");
+            scanf("%f", &temperatura);
+
+            resultado = (temperatura * 9 / 5) + 32;
+
+            printf("%.2f Celsius equivalen a %.2f Fahrenheit\n",
+                   temperatura, resultado);
+            break;
 
       
