@@ -33,4 +33,14 @@ int main() {
                    temperatura, resultado);
             break;
 
+        case 3:
+            printf("Gracias por utilizar el programa.\n");
+            return 0;
+
+        default:
+            printf("Opcion no valida. Intente nuevamente.\n");
+    }
+
+    return 0;
+}
       
