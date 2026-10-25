@@ -30,7 +30,13 @@ int main () {
      // 1. Mostrar todas las personas usando punteros
      // ------------------------------------------------
      printf("=== LISTA DE PERSONAS ===\n");
-     for
+     for (int i = 0; i < 5; i++) {
+          // Usamos aritmetica de punteros ( ptr + i ) para acceder a cada elemento
+          printf(" persona %d: Nombre = %s, edad = %d anios\n",
+                 i + 1, (ptr + i)->nombre, (ptr + i)->edad);
+     }
+
+     
 
 
 
