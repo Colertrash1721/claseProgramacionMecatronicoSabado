@@ -13,5 +13,17 @@ typedef struct {
     int edad ;
 } persona;
 
+int main () {
+    // 1. Crear e inicializar un arreglo de 5 estructuras persona
+    persona personas[5] = {
+                { " ana", 25 },
+                { " carlos", 42 },
+                { " beatriz", 19 },
+                { " david", 31 },
+                { " elena", 58 },
+     } ;
+
+     // Puntero que apunta al inicio del arreglo
+
 
 
