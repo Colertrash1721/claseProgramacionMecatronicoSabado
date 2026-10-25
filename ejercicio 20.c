@@ -1,6 +1,7 @@
 Nombre: Gabriel jesus suero
 Matricula: 2026-1107
 Asignatura: programacion para mecatronicos
+Carrera: Energia renobable
 Correo: 20261107@itla.edu.do
 Archivo: ejercicio 20.c
 
