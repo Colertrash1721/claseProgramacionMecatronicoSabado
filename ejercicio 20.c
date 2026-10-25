@@ -36,6 +36,16 @@ int main () {
                  i + 1, (ptr + i)->nombre, (ptr + i)->edad);
      }
 
+     // ------------------------------------------------------
+     // 2 y 3. Encontrar la persona de mayor y menor edad
+     // ------------------------------------------------------
+     persona *ptr mayor = ptr;
+     persona *ptr menor = ptr;
+
+     for (int i= 1; i < 5; i++) {
+          // Comparamos las edades usando el puntero actual (ptr + i)
+ 
+
      
 
 
