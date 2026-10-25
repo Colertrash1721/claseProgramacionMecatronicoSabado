@@ -52,6 +52,12 @@ int main () {
           }
      }
 
+     printf("\n===EXTREMOS DE EDAD ===\n");
+     printf("persona de mayor edad: %s (%d anios)\n", ptrMayor->nombre, ptrMayor->edad);
+     printf("persona de menor edad: %s (%d anios)\n", ptrMenor->nombre, ptrMenor->edad);
+
+     return 0;
+
  
 
      
