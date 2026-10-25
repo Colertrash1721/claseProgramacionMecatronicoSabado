@@ -24,6 +24,13 @@ int main () {
      } ;
 
      // Puntero que apunta al inicio del arreglo
+     persona *ptr = personas;
+
+     // ------------------------------------------------
+     // 1. Mostrar todas las personas usando punteros
+     // ------------------------------------------------
+     printf("=== LISTA DE PERSONAS ===\n");
+     for
 
 
 
