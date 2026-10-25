@@ -45,7 +45,13 @@ int main () {
      for (int i= 1; i < 5; i++) {
           // Comparamos las edades usando el puntero actual (ptr + i)
           if ((ptr + i)->edad > ptrMayor->edad) {
-          
+               ptrmayor = ptr + i; // Actualizamos el puntero a la mayor edad
+          }
+          if ((ptr + i)->edad < ptrMenor->edad) {
+               ptrmenor = ptr + i; // Actualizamos el puntero a la menor edad
+          }
+     }
+
  
 
      
