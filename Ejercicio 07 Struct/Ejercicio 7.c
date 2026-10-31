@@ -13,3 +13,11 @@ struct Producto {
     float precio;
     int cantidad;
 };
+
+int main() {
+
+    // Declaración e inicialización del producto
+    struct Producto producto = {150.50, 10};
+
+    // Declaración de un puntero a la estructura
+    struct Producto *ptr = &producto;
